@@ -1,0 +1,70 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.signup-wrapper {
+  padding: 110px 0;
+  text-align: center;
+}
+
+.form_logo img {
+  height: 150px;
+  width: 200px;
+  margin: 20px 0;
+}
+
+.signup-wrapper h1 {
+  padding: 40px 0;
+  color: #5f5d60;
+}
+
+label[for] {
+  display: block;
+}
+
+.form-control {
+  height: 30px;
+  width: 300px;
+  border: 1px solid #D6DDE8;
+  border-radius: 2px;
+  margin: 0 auto;
+}
+
+.field {
+  padding: 20px 0;
+}
+
+.submit-btn {
+  padding: 20px 0;
+  .btn {
+  background-color: #555555; /* Green */
+  border: none;
+  width: 100px;
+  }
+}
+
+.signup-form {
+  margin: 0 auto;
+  width: 500px;
+  border: 1px solid #273E60;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
+}
+
+/*ログインページ*/
+
+.login-form {
+  border: 1px solid #273E60;
+  border-radius: 4px;
+  box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
+  width: 500px;
+  margin: 0 auto;
+}
+
+.login-wrapper {
+  text-align: center;
+  padding: 110px 0;
+}
+
+.login-form h2 {
+  padding-top: 30px;
+}

@@ -1,0 +1,79 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.top-wrapper {
+  padding: 240px 0 120px 0;
+  background: linear-gradient(180deg, rgba(171, 78, 237, 0.47), rgba(16, 119, 222, 0.69)),
+ url(top-image1.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+
+}
+
+.top-wrapper p {
+  margin: 15px 0;
+}
+
+.btn-wrapper {
+  margin-top: 20px;
+}
+
+.btn {
+  padding: 8px 24px;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  opacity: 0.8;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.signup {
+  background-color: #0BBA69;
+}
+
+.about-wrapper {
+  background-color: #f7f7f7;
+  text-align: center;
+  height: 500px;
+}
+
+.heading {
+  padding: 60px 30px;
+  color: #5f5d60;
+}
+
+.content {
+  float: left;
+  width: 33%;
+}
+
+.icon {
+  width: 80%;
+  box-shadow: 3px 3px 3px 0 rgba(0,0,0,0.3);
+  border-radius: 4px;
+  color: white;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+.txt-content {
+  width: 80%;
+  display: inline-block;
+  color: #5f5d60;
+}
+
+.icon-1 {
+  background: #0199d9;
+}
+
+.icon-2 {
+  background: #1abc9c;
+}
+
+.icon-3 {
+  background: #f1c40f;
+}

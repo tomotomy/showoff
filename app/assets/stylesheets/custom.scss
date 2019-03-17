@@ -1,0 +1,120 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+.container {
+  width: 1170px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+}
+
+#logo {
+  color: white;
+  font-size: 25px;
+  display: inline-block;
+  margin-top: 20px;
+  opacity: 0.7;
+}
+
+#logo:hover {
+  opacity: 1;
+}
+
+.header-logo {
+  float: left;
+  height: 65px;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+  display: block;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5)
+}
+
+.header-right a {
+  display: block;
+  padding: 0 25px;
+  color: white;
+  line-height: 65px;
+}
+
+footer {
+  border-top: 2px solid #eee;
+  height: 100px;
+}
+
+#footer-logo {
+  color: #5f5d60;
+  display: inline-block;
+  height: 100px;
+  padding: 36px;
+}
+
+/*エラー(バリデーション)*/
+#error_explanation {
+  width: 500px;
+  color: red;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border: 1px solid #FF5D5D;
+  border-radius: 4px;
+}
+
+#error_explanation ul {
+  margin: 20px 0;
+}
+
+.error-message {
+  padding: 0 20px;
+  background-color: #FF5D5D;
+  color: white;
+}
+
+/* フラッシュ */
+
+.alert {
+  width: 500px;
+  padding: 10px 0;
+  margin: 30px auto;
+  border-radius: 4px;
+}
+
+.alert-danger {
+  background-color: #FF7373;
+  color: #C61313;
+}
+
+.alert-success {
+  background-color: #6FC89E;
+  color: #138751;
+}
+
